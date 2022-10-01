@@ -35,7 +35,7 @@ dependencies:
   cached_network_image: ^3.2.0
 ```
 
-Firebse Set up:
+Firebase Setup:
 
 1 - Create a new firebase project in the firebase console;
 You can deactivate the Google Analytics.
