@@ -152,8 +152,8 @@ You can skip the next Android app creation steps.
   </a></td>
   
  <td align="center">
-  <a target="_blank" rel="" href="images/Feed_screen.jpg">
-        <img src="images/Feed_screen.jpg" alt="Css Logo" with="200" height="400"/>
+  <a target="_blank" rel="" href="images/Feed_screen_01.jpg">
+        <img src="images/Feed_screen_01.jpg" alt="Css Logo" with="200" height="400"/>
 
   </a></td>
   
@@ -193,8 +193,8 @@ You can skip the next Android app creation steps.
   </a></td>
   
  <td align="center">
-  <a target="_blank" rel="" href="images/comments_screen.jpg.jpg">
-        <img src="images/comments_screen.jpg.jpg" alt="Css Logo" with="200" height="400"/>
+  <a target="_blank" rel="" href="images/comments_screen.jpg">
+        <img src="images/comments_screen.jpg" alt="Css Logo" with="200" height="400"/>
 
   </a></td>
   
