@@ -15,6 +15,7 @@ class AuthController extends GetxController {
   late Rx<User?> _user;
   late Rx<File?> _pickedImage;
   File? get getProfilePhoto => _pickedImage.value;
+  User get user => _user.value!;
 
   @override
   void onReady() {
@@ -106,5 +107,11 @@ class AuthController extends GetxController {
     } catch (e) {
       Get.snackbar('Fail to login', e.toString());
     }
+  }
+
+  void signOut() async {
+    await firebaseAuth.signOut().then(
+          (value) => Get.snackbar('Legged out', 'Good bye'),
+        );
   }
 }

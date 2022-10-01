@@ -3,24 +3,19 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:tiktok_clone/views/screens/add_video_screen.dart';
+import 'package:tiktok_clone/views/screens/profile_screen.dart';
 
 import 'controllers/auth_controller.dart';
+import 'views/screens/search_screen.dart';
+import 'views/screens/video_screen.dart';
 
 //PAGES
-const pages = [
-  Center(
-    child: Text('Home screen'),
-  ),
-  Center(
-    child: Text('Search screen'),
-  ),
-  AddVideoScreen(),
-  Center(
-    child: Text('Messages screen'),
-  ),
-  Center(
-    child: Text('Profile screen'),
-  ),
+List pages = [
+  VideoScreen(),
+  SearchScreen(),
+  const AddVideoScreen(),
+  const Center(child: Text('Messages screen')),
+  ProfileScreen(uid: authController.user.uid),
 ];
 
 // COLORS
